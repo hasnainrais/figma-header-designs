@@ -1,0 +1,63 @@
+@font-face {
+    font-family: roboto;
+    src: url(assets/font/Roboto-Regular.ttf);
+}
+
+
+body{
+    margin: 0px;
+    background-image: url(assets/images/mountains-morning-snow-rock-mountain-landscape.png);
+    background-size: cover;
+    ;
+}
+
+.work{
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+
+
+}
+
+ .work >h1{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    text-shadow:1px 4px 2px black;
+    text-align: center;
+     padding-top: 10%;    
+
+} 
+
+.box{
+    width: 800px;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-family: roboto;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: none;
+    border-radius: 30px;
+    box-shadow:  0 8px 12px 0 rgba(0, 0, 0, 0.8);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: rgb(64, 133, 133);
+}
+
+
+
+
