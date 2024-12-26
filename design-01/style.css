@@ -55,6 +55,12 @@ a{
     text-decoration: none;
 }
 
+.nav>ul>li>a:active{
+
+    color: #22242A;
+
+}
+
 .heading{
     width: 850px;
     height:60px;

@@ -1,0 +1,169 @@
+@font-face {
+    font-family: roboto;
+    src: url(../assets/font/Roboto-Regular.ttf);
+}
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(assets/images/image\ 33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+
+.logo{
+    width:30%;
+    margin-top: 39px;
+    margin-left: 117px;
+}
+
+.navbar{
+    width: 65%;
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+    align-items: center;
+    padding-left: 170px;
+}
+
+.nav >ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 400;
+
+    /* margin-top: 43px; */
+}
+
+.nav-btn{
+    margin-right: auto;
+}
+
+.nav-btn >button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 20px;
+    text-align: center;
+    /* margin-top: 5px; */
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li > a:hover{
+    color: red;
+}
+li > a:active{
+    color: #ffffff;
+}
+.nav-btn>button > a {
+    text-decoration: none;
+    color: #000;
+}
+.nav-btn>button:hover {
+    color:#ffffff;
+}
+
+
+.nav-btn>button > a:active {
+color: #ffffff;}
+
+.hero-sec{
+    width: 95%;
+    height: 450px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 40px;
+    height: 40px;
+}
+
+.center{
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 60px; */
+    align-items: center;
+
+}
+
+.right{
+    width: 40px;
+    height: 40px;
+}
+
+.center > h2{
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(#FC00FF, #00DBDE);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center > p{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 70px;
+    text-align: center;
+}
+
+.center>button{
+    width: 250px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.sec-last{
+
+width: 95%;
+height: 64px;
+margin: 0px auto;
+margin-top: 15px;
+display: flex;
+justify-content: center;
+}
+
+.sec-last>img{
+width: 32px;
+height: 64px;
+}
+
+.center > button > a{
+    text-decoration: none;
+    color: #000;
+}
+
+
